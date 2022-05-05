@@ -18,5 +18,5 @@ install_data(
 install_data(
     'data' / 'hello-again.metainfo.xml',
     install_dir: get_option('datadir') / 'metainfo',
-    rename: mesion.project_name() + '.metainfo.xml'
+    rename: meson.project_name() + '.metainfo.xml'
 )
